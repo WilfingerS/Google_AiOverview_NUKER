@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Google AI Remover",
+    "version": "1.0",
+    "description": "Hides Google AI Overview and AI Mode.",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.google.com/search*"
+            ],
+            "css": ["src/style.css"],
+            "js": ["src/content.js"],
+            "run_at": "document_end"
+        }
+    ]
+}
