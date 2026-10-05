@@ -10,7 +10,7 @@ This browser extension automatically hides Google's AI Overview when loading sea
 Clone or download this repository:
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/WilfingerS/Google_AiOverview_NUKER>
 ```
 
 ### Browser
